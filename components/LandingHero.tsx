@@ -52,7 +52,7 @@ export default function LandingHero({ siteName }: LandingHeroProps) {
             className="inline-flex items-center justify-center gap-2 px-4 py-2 text-sm font-semibold text-amber-800 bg-white/60 backdrop-blur-md rounded-full shadow-[0_2px_10px_-3px_rgba(0,0,0,0.1)] border border-amber-200/50 relative overflow-hidden group"
           >
             <Sparkles className="w-4 h-4 text-amber-500" />
-            Nền tảng gia phả hiện đại & bảo mật
+            Được xây dựng bởi 1 gã nào đó trên internet và phát triển bởi Nhigocbang.id.vn
             <div className="absolute inset-0 bg-linear-to-r from-transparent via-white/50 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-in-out"></div>
           </motion.div>
 
@@ -61,8 +61,8 @@ export default function LandingHero({ siteName }: LandingHeroProps) {
           </h1>
 
           <p className="text-lg sm:text-xl md:text-2xl text-stone-600 max-w-2xl mx-auto leading-relaxed font-light">
-            Gìn giữ và lưu truyền những giá trị, cội nguồn và truyền thống tốt
-            đẹp của dòng họ cho các thế hệ mai sau.
+            Nhằm gìn giữ và lưu truyền những giá trị, cội nguồn và truyền thống tốt
+            đẹp của họ Võ Bình Châu cho thế hệ mai sau.
           </p>
         </motion.div>
 
@@ -78,7 +78,7 @@ export default function LandingHero({ siteName }: LandingHeroProps) {
             className="group inline-flex items-center justify-center gap-2 px-8 py-4 sm:px-10 sm:py-5 text-base sm:text-lg font-bold text-white bg-stone-900 border border-stone-800 hover:bg-stone-800 hover:border-stone-700 rounded-2xl shadow-xl shadow-stone-900/10 hover:shadow-2xl hover:shadow-stone-900/20 transition-all duration-300 hover:-translate-y-1 active:translate-y-0 cursor-pointer w-full sm:w-auto overflow-hidden relative"
           >
             <span className="relative z-10 flex items-center gap-3">
-              Đăng nhập để xem thông tin
+              Đăng nhập để xem thông tin dòng họ.
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1.5 transition-transform" />
             </span>
           </Link>
@@ -102,7 +102,7 @@ export default function LandingHero({ siteName }: LandingHeroProps) {
             {
               icon: <ShieldCheck className="w-6 h-6 text-amber-700" />,
               title: "Bảo mật Tối đa",
-              desc: "Dữ liệu riêng tư như số điện thoại, quê quán được phân quyền chặt chẽ, bảo vệ an toàn trên hệ thống đám mây.",
+              desc: "Dữ liệu riêng tư như số điện thoại, quê quán được phân quyền chặt chẽ, bảo vệ an toàn trên hệ thống đám mây, chỉ có người trong dòng họ mới được xem.",
             },
           ].map((feature, idx) => (
             <motion.div
