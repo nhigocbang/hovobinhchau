@@ -9,7 +9,7 @@ import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
 export default function LoginPage() {
-  const [email, setEmail] = useState("giaphaos@homielab.com");
+  const [email, setEmail] = useState("nhigocbang@gmail.com");
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -18,9 +18,9 @@ export default function LoginPage() {
   useEffect(() => {
     if (typeof window !== "undefined") {
       const hostname = window.location.hostname;
-      if (hostname === "localhost" || hostname === "giapha-os.homielab.com") {
+      if (hostname === "localhost" || hostname === "nhigocbang@gmail.com") {
         setIsDemo(true);
-        setEmail("giaphaos@homielab.com");
+        setEmail("nhigocbang@gmail.com");
         setPassword("giaphaos");
       }
     }
