@@ -119,7 +119,7 @@ export default function LoginPage() {
             </h2>
             <p className="mt-3 text-sm text-stone-500 font-medium tracking-wide">
               {isLogin
-                ? "Đăng nhập để truy cập gia phả."
+                ? "Mừng con cháu Họ Võ về với cội nguồn."
                 : "Tạo tài khoản thành viên mới."}
             </p>
             {isDemo && (
