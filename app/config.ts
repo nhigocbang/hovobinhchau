@@ -1,5 +1,5 @@
 const config = {
-  siteName: process.env.SITE_NAME || "Gia Phả OS",
+  siteName: process.env.SITE_NAME || "HỌ VÕ BÌNH CHÂU",
   exampleEmail: process.env.EXAMPLE_EMAIL || "",
   examplePassword: process.env.EXAMPLE_PASSWORD || "",
 };
